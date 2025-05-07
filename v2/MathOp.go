@@ -1,8 +1,11 @@
 package ExModule
 
+import "fmt"
+
 // This add function just does what it says
 // it adds to values and returns the result of the addition
 func Add[T Number](a, b T) T {
+	fmt.Println("successs")
 	return a + b
 }
 
